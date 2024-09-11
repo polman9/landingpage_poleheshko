@@ -1,0 +1,96 @@
+* {
+    outline: 1px solid;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  }
+
+.header {
+    display: flex;
+    background-color: #1F2937;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 15px 0px;
+    flex: 1;
+    font-size: 24px;
+    color: #F9FAF8;
+    font-weight: 700;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex: 2;
+    font-size: 18px;
+    color: #F9FAF8;
+    font-weight: 300;
+}
+
+.menu ul {
+    list-style-type: none;
+    text-decoration: none;
+    display: flex;
+    gap: 20px;
+    margin: 0;
+    padding: 0;
+  }
+
+  .menu ul li a {
+    color: #F9FAF8; /* Set the link color to white */
+    text-decoration: none; /* Removes the underline */
+  }
+
+  .container1 {
+    display: flex;
+    background-color: #1F2937;
+    color: #F9FAF8;
+    justify-content: center;
+    padding: 140px 360px;
+  }
+
+  .container1left, .container1right {
+    flex: 1;
+  }
+
+  .container1left {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .container1lefttext1 {
+    font-size: 48px;
+    font-weight: 900;
+  }
+
+  .container1lefttext2 {
+    font-size: 10px;
+    font-weight: 150;
+  }
+
+  .container1leftbutton {
+    background-color: #3882F6;
+    max-width: 80px;
+    font-size: 12px;
+    border-radius: 6px;
+    padding: 3px 3px;
+    display: flex;
+    justify-content: center;
+  }
+
+  .container1right {
+    display: flex;
+    background-color: #6b737f;
+    font-size: 10px;
+    font-weight: 150;
+    justify-content: center;
+    align-items: center;
+  }
